@@ -1,0 +1,45 @@
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 10vh;
+  background: #e63c44;
+  color: #fff;
+  text-align: center;
+}
+h1 {
+  padding: 10rem;
+  font-size: 20rem;
+  font-family: "Italiana", serif;
+  font-weight: bold;
+}
+button,
+#change {
+  display: block;
+  margin: 0 auto;
+  width: 38rem;
+  height: 6rem;
+  background: #fff;
+  color: #e63c44;
+  font-family: "Italiana", serif;
+  font-weight: bold;
+  font-size: 2rem;
+  border-radius: 10rem;
+  outline: none;
+}
+
+body,
+button,
+#change {
+  transition: all 0.4s ease-in-out;
+}
+button:hover {
+  cursor: pointer;
+  text-transform: uppercase;
+}
